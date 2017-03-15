@@ -1,5 +1,5 @@
 
-class Item {
+export class Item {
     public readonly id: number;
     public description: string;
     public done: boolean;

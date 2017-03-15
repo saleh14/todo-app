@@ -9,6 +9,7 @@ var Item = (function () {
     }
     return Item;
 }());
+exports.Item = Item;
 var AllItems = [
     new Item(1, 'Clean Table', true), new Item(2, 'Write Code'), new Item(3, 'Play Flute')
 ];
